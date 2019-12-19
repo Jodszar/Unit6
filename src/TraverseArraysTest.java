@@ -28,12 +28,12 @@ public class TraverseArraysTest {
         assertEquals(false, TraverseArrays.sum28(new int[]{2, 3, 2, 2, 4, 2, 2}));
         assertEquals(false, TraverseArrays.sum28(new int[]{1, 2, 3, 4}));
   }
-//
-//    @Test
-//    public void zeroMax() {
-//        assertArrayEquals(new int[]{5, 5, 3, 3}, TraverseArrays.zeroMax(new int[]{0, 5, 0, 3}));
-//    }
-//
+
+    @Test
+    public void zeroMax() {
+        assertArrayEquals(new int[]{5, 5, 3, 3}, TraverseArrays.zeroMax(new int[]{0, 5, 0, 3}));
+    }
+
 //    @Test
 //    public void selfDivisor() {
 //        assertArrayEquals(new int[]{11, 12, 15}, SelfDivisor.firstNumSelfDivisors(10, 3));
